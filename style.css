@@ -1,0 +1,385 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #DCE1F1;
+    display: flex   ;
+}
+a{
+    text-decoration: none;
+}
+.container-sidebar{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar-bg{
+    background-color: #272659;
+    width: 265px;
+}
+.sidebar{
+    background-color: #3C4471;
+    width: 225px;
+    height: 95%;
+    margin: 20px 0px 20px 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 32px;
+    box-sizing: border-box;
+}
+.web-icon{
+    display: flex;
+    padding: 20px 15px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.app-name p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 3px;
+}
+.app-name p span{
+    color: black;
+}
+.menubar ul{
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    line-height: 37px;
+    padding-left: 35px;
+    box-sizing: content-box;
+}
+.menu{
+    background-color: black;
+    width: 200px;
+    height: 37px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+.card-content{
+    background-color: #ffffff;
+    width: 97%;
+    height: 95%;
+    margin: 20px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+}
+.grafik{
+    display: flex;
+    gap: 10px;
+}
+.grafiksiswa,
+.grafikbarang{
+    width: 500px;
+    height: 400px;
+}
+/* .text p:first-child{
+    font-size: 128px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin: 90px 0px 0px 70px;
+}
+.text p:nth-child(2){
+    font-size: 128px;
+    font-family: 'Lobster', cursive;
+    margin-top: -40px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+} */
+.btn{
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+}
+.btn ul {
+    display: flex;
+    gap:  3rem;
+}
+.btn ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.btn ul li img{
+    width: 80px;
+    height: 80px;
+}
+.btn-siswa{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 20px;
+}
+.btn-barang{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 20px;
+    margin-right: 0px;
+}
+.btn ul li a{
+    background-color: #f9f9f9;
+    width: 200px;
+    height: 160px;
+    text-decoration: none;
+    color: black;
+    font-family: 'roboto', sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 1px 1px 2px 2px rgb(205, 205, 205);
+}
+.judul{
+    background-color: black;
+    width: 180px;
+    height: 46;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.judul p{
+    font-family: 'quicksand', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+.judul-tmbh{
+    background-color: black;
+    width: 250px;
+    height: 46;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.judul-tmbh p{
+    font-family: 'quicksand', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+.button, .table-content{
+    margin-left: 80px;
+}
+
+/* table data */
+.table-content table{
+    margin-top: 15px;
+    width: 1050px;
+    margin-bottom: 60px;
+}
+.table-content table th{
+    text-align: center;
+    height: 60px;
+    background-color: #FFB200;
+    text-transform: uppercase;
+    font-family: 'quicksand', sans-serif;
+}
+.table-content table tr td{
+        font-family: 'quicksand', sans-serif;
+}
+.table-content table th:first-child{
+    border-top-left-radius: 15px;
+}
+.table-content table th:last-child{
+    border-top-right-radius: 15px;
+}
+.table-content table td{
+    background-color: rgb(214, 214, 214);
+    padding-left: 7px;
+    height: 40px;
+}
+.table-content table tr th:first-child{
+    width: 100px;
+}
+.table-content table tr td:first-child{
+    width: 100px;
+}
+.table-content table tr th:last-child{
+    width: 70px;
+}
+.table-content table tr td:last-child{
+    width: 70px;
+}
+.table-content table tr .kode{
+    width: 100px;
+}
+.button, .table-content{
+    margin-left: 80px;
+}
+.button{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* tombol tambah */
+.button p{
+    margin: 0;
+}
+.btn-tmbh{
+    background-color: #5BCC66;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    font-family: 'quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 2px 2px #d4d4d4;
+}
+
+/* filter */
+.filter select{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    font-family: 'quicksand', sans-serif;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+    margin-top: 3px;
+    margin-right: 10px;
+
+}
+.filter{
+    display: flex;
+}
+/* search */
+.button{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid rgb(163, 163, 163);
+    padding-left: 10px;
+}
+.search button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.search button i{
+    font-size: 21.7px;
+}
+/* tombol edit */
+.action a:first-child{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(87, 171, 255);
+    border-radius: 5px;
+}
+.action a:last-child{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+.action a img{
+    margin-top: 7px;
+    width: 15px;
+}
+.btn-tmbh h4 a{
+    color: black;
+    font-family: 'Mitr', sans-serif;
+}
+.table-content table .action{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-edit{
+    margin-left: 20px;
+}
+.form-edit table tr th{
+    text-align: left;
+    font-family: 'quicksand', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.form-edit table tr td{
+    text-align: left;
+    font-family: 'quicksand', sans-serif;
+}
+.form-edit table tr td input, textarea{
+    width: 1100px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    font-family: 'quicksand', sans-serif;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+}
+select{
+    width: 1120px;
+    height: 36.5px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    font-family: 'quicksand', sans-serif;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+}
+.form-edit table tr td input[type=radio]{
+    height: 15px;
+    width: 15px;
+    font-family: 'quicksand', sans-serif;
+}
+
+/* button simpan & cancel */
+.btn-simpan-cancel{
+    margin-left: 950px;
+}
+.btn-simpan-cancel a{
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-family: 'quicksand', sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
+    box-shadow: 2px 2px #d4d4d4;
+    cursor: pointer;
+}
+.btn-simpan-cancel input{
+    background-color: #5BCC66;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 5px;
+    font-family: 'quicksand', sans-serif;
+    box-shadow: 2px 2px #d4d4d4;
+    cursor: pointer;
+}
